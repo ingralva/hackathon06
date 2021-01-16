@@ -1,3 +1,76 @@
 *, *::before , *::after {
     box-sizing: border-box;
 }
+
+
+/* HEADER */
+
+.Header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: white;
+    padding: 10px 0px;
+}
+
+/* .Logo {
+    width: 300px;
+} */
+
+.Nav-ul {
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+.Nav-ul-li {
+    padding: .5em;
+    list-style-type: none;
+}
+
+.Nav-ul-li-a {
+    text-decoration: none;
+    font-size: 1.1em;
+    color: black;
+}
+
+.Selected {
+    font-weight: bold;
+    color: #28476E;
+}
+
+.AcercaDe {
+    background: #6FB0ED;
+}
+/* HEADER */
+
+.Buscar-Articulo {
+    background: #F4F4F4;
+    padding: 15px;
+    border-radius: 10px;
+    margin: 30px 0px;
+}
+
+.Buscar-Articulo input {
+    border: 0;
+    background: rgb(241, 241, 241);
+    
+    outline: 0;
+    font-size: 14px;
+}
+
+.Imagen-Articulo {
+    width: 100%;
+}
+
+
+
+.Contacto {
+    /* height: 15em; */
+    background: #316099;
+    border-radius: 0 10em 0 0;
+}
+
+.Btn-bg {
+    background: #5A98D0;
+}
