@@ -86,6 +86,11 @@
     background: #5A98D0;
 }
 
+.Contacto-Titulo {
+    font-size: 36px;
+    padding-right: 150px;
+}
+
 
 /* MOBILE */
 @media (max-width: 576px) {
@@ -100,5 +105,10 @@
 
     h3 {
         font-size: 22px;
+    }
+
+    .Contacto-Titulo {
+        font-size: 28px;
+        padding-right: 0px;
     }
 }
