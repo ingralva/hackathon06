@@ -63,7 +63,18 @@
     width: 100%;
 }
 
+.See-All {
+    font-size: 24px;
+}
 
+.texto-azul {
+    color: #5283B8;
+}
+
+.texto-azul-oscuro {
+    color: #1F3F68;
+    
+}
 
 .Contacto {
     /* height: 15em; */
@@ -73,4 +84,21 @@
 
 .Btn-bg {
     background: #5A98D0;
+}
+
+
+/* MOBILE */
+@media (max-width: 576px) {
+    .See-All {
+        font-size: 16px;
+    }
+
+    h2 {
+        padding-top: 10px;
+        font-size: 20px;
+    }
+
+    h3 {
+        font-size: 22px;
+    }
 }
